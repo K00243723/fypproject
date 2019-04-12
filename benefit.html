@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> Take Leave</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/benefit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+	<body>
+       <div id="wrapper">
+        <div id="header">
+            
+           <h1>Take <img src="img/logo.png" width="110" height="95" alt="logoimage" title="logo"/> <span id="leave">Leave</span></h1>
+            
+           </div>
+           <div id="nav">
+               <div class="toggle">
+                    <i class="fa fa-bars menu"></i>
+                </div>
+               <ul>
+                   <li><a href="index.html" >Home</a></li>
+                   <li><a href="benefit.html" class="currentpage">Benefits</a></li>
+                   <li><a href="analytics.html">Analytics</a></li>
+                   
+               </ul>
+               <script src="https://code.jquery.com/jquery-3.3.1.js"> </script>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        $('.menu').click(function() {
+                            $('ul').toggleClass('active');
+
+                        })
+                    })
+                </script>
+               </div>
+               <div class="search">
+                    <form>
+                        <input class= "searchbutton" type="text" placeholder="Search" name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+               </div>
+           
+            <div id="flag">
+            <h2>Calculate your Benefits</h2>
+                         
+                   <img src="img/flags2.png" width="110" height="80" alt="flagimage" title="flags"/>
+                <form action="/action_page.php">
+                  <select id ="country" name="country">
+                    <option value="selection">Select your country</option>
+                    <option value="ireland">Ireland</option>
+                    <option value="uk">UK</option>
+                    <option value="usa">USA</option>
+                    <option value="usa">Finalnd</option>
+                      <option value="usa">Germany</option>
+                  </select>
+                  <br><br>
+                  
+                </form>
+            </div>
+           <div id="calender">
+            
+                         
+                   <img src="img/calender1.png" width="120" height="85" alt="calenderimage" title="calender"/>
+               <form><input id= "calendertext" type="text" placeholder="No of days" name="calender"></form>
+            </div>
+             <div id="currency">
+           
+                         
+                   <img src="img/currency5.png" width="110" height="80" alt="currencyimage" title="currency"/>
+                 <form><input id="currencytext" type="text" placeholder="currency" name="currency" ></form>
+                 
+            </div>
+            <div class ="picture">
+                <h3>Share</h3> 
+              <div id="facebook">
+                   
+              <a href="https://www.facebook.com"><img src="img/facebook.png" width="40" height="30" alt="facebookimage" title="facebookpics"/> </a>
+              </div>
+            <div id="twitter">
+                
+              <a href ="https://twitter.com/"><img src="img/twitter.png" width="30" height="30" alt="twitterimage" title="twitterpics"/> </a>
+            </div>
+               <div id="images">
+                <img src="img/logo2.png" width="210" height="160" alt="twitterimage" title="twitterpics"/>
+              
+            </div>
+                <div id="fam">
+                    <img src="img/family3.jpeg" width="290" height="200" alt="currencyimage" title="currency"/>
+                </div>
+                
+            </div>
+            <div id="link">
+                <a href="https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/parental_leave.html"><b>How to apply for parental leave</b></a><br><br>
+                
+                <a href="https://publicholidays.ie/2019-dates/"><b>Public holidays</b> </a>
+            </div>
+                         
+                 
+            
+          
+           
+           <footer>
+                 Geetha Raju - K00243723
+               <div class="login">
+                        <a href="admin.html">Admin login  </a>
+            </div>
+           </footer> 
+         
+       </div>
+         
+</body>
+</html>
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> Take Leave</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/benefit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+	<body>
+       <div id="wrapper">
+        <div id="header">
+            <img src="img/logo.png" width="110" height="80" alt="logoimage" title="logo"/>
+           <h1>Take <span class="leave">Leave</span></h1>
+            
+           
+           <div id="nav">
+               <ul>
+                   <li><a href="index.html" >Home</a></li>
+                   <li><a href="benefit.html" class="currentpage">Benefits</a></li>
+                   <li><a href="analytics.html">Analytics</a></li>
+                   
+               </ul>
+               <div class="search">
+                    <form>
+                        <input type="text" placeholder="Search" name="search">
+                        <button type="submit"><i class="medium fa fa-search"></i></button>
+                    </form>
+               </div>
+           </div>
+            <div id="flag">
+            <h2>Calculate your Benefits</h2>
+                         
+                   <img src="img/flags2.png" width="110" height="80" alt="flagimage" title="flags"/>
+                <form action="/action_page.php">
+                  <select id ="country" name="country">
+                    <option value="selection">Select your country</option>
+                    <option value="ireland">Ireland</option>
+                    <option value="uk">UK</option>
+                    <option value="usa">USA</option>
+                    <option value="usa">Finalnd</option>
+                      <option value="usa">Germany</option>
+                  </select>
+                  <br><br>
+                  
+                </form>
+            </div>
+           <div id="calender">
+            
+                         
+                   <img src="img/calender1.png" width="120" height="85" alt="calenderimage" title="calender"/>
+               <form><input id= "calendertext" type="text" placeholder="No of days" name="calender"></form>
+            </div>
+             <div id="currency">
+           
+                         
+                   <img src="img/currency5.png" width="110" height="80" alt="currencyimage" title="currency"/>
+                 <form><input id="currencytext" type="text" placeholder="currency" name="currency" ></form>
+                 
+            </div>
+            <div class ="picture">
+                <h3>Share</h3> 
+              <div id="facebook">
+                   
+              <a href="https://www.facebook.com"><img src="img/facebook.png" width="40" height="30" alt="facebookimage" title="facebookpics"/> </a>
+              </div>
+            <div id="twitter">
+                
+              <a href ="https://twitter.com/"><img src="img/twitter.png" width="30" height="30" alt="twitterimage" title="twitterpics"/> </a>
+            </div>
+               <div id="images">
+                <img src="img/logo2.png" width="210" height="160" alt="twitterimage" title="twitterpics"/>
+              
+            </div>
+                <div id="fam">
+                    <img src="img/family3.jpeg" width="290" height="200" alt="currencyimage" title="currency"/>
+                </div>
+                
+            </div>
+            <div id="link">
+                <a href="https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/parental_leave.html"><b>How to apply for parental leave</b></a><br><br>
+                
+                <a href="https://publicholidays.ie/2019-dates/"><b>Public holidays</b> </a>
+            </div>
+           <footer>
+                 Geetha Raju - K00243723
+               
+           </footer> 
+         
+       </div>
+      </div>   
+</body>
+</html>-->
