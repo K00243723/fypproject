@@ -1,0 +1,34 @@
+#content{
+	background-color:white;
+	width:800px;
+}
+
+#content h2{
+	color:brown;
+	
+}
+
+.center-text{
+	color:brown;
+}
+#form15{
+	margin-left:10px;
+}
+#form15 p{
+	font-size:16px;
+}
+#form15 label{
+	font-size:20px;
+	font-weight: bold;
+	
+}
+label for="Details"{
+	margin-top:40px;
+}
+#Details{
+	
+	margin-top:-5px;
+	margin-left:10px;
+	
+}
+

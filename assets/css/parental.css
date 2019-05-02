@@ -1,0 +1,70 @@
+
+#parent1{
+    margin-top: 470px;
+    display: flex;
+    flex-direction: row;
+}
+#patentimage{
+    margin-top: -470px;
+    
+    
+}
+#patentimage h2{
+    color: brown;
+    margin-left: 400px;
+    
+}
+#patentimage img{
+    margin-top: 10px;
+}
+
+#article1{
+    flex-direction: column;
+    margin-left: -860px;
+    padding: 10px;
+    width: 600px;
+}
+#article1 h3{
+    
+    color:brown;
+}
+#article1 p{
+    
+    text-align: justify;
+}
+
+#article2{
+    flex-direction: column;
+    //margin-left: -860px;
+    padding: 10px;
+    width: 600px;
+}
+#article2 h3{
+    
+    color:brown;
+}
+#article2 p{
+    
+    text-align: justify;
+}
+#somelinks{
+    flex-direction: column;
+    margin-left: -615px;
+    padding: 10px;
+    margin-top: 830px;
+    color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

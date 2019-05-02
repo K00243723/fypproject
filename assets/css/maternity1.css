@@ -1,0 +1,307 @@
+
+#parent3{
+    margin-top: 470px;
+    display: flex;
+    flex-direction: row;
+}
+#patentimage3{
+    margin-top: -470px;
+    
+    
+}
+#patentimage3 h2{
+    color: brown;
+    margin-left: 400px;
+    
+}
+#patentimage3 img{
+    margin-top: 10px;
+	margin-left: 180px;
+}
+
+#article3{
+    flex-direction: column;
+    margin-left: -1070px;
+    padding: 10px;
+    width: 600px;
+	margin-top:10px;
+
+}
+#article3 h3{
+    
+    color:brown;
+}
+#article3 p{
+    
+    text-align: justify;
+}
+
+#article4{
+    flex-direction: column;
+    //margin-left: -860px;
+    padding: 10px;
+    width: 600px;
+	margin-top:10px;
+}
+#article4 h3{
+    
+    color:brown;
+	
+}
+#article4 p{
+    
+    text-align: justify;
+}
+#somelinks3{
+    flex-direction: column;
+    margin-left: -615px;
+    padding: 10px;
+    margin-top: 890px;
+    color: brown;
+}
+@media only screen and  (min-width: 480px){
+    
+    #wrapper{
+    width:400px;
+
+    }
+	
+#parent3{
+    margin-top: 430px;
+    display: flex;
+    flex-direction: column;
+}
+#patentimage3{
+    margin-top: -470px;
+    
+    
+}
+#patentimage3 h2{
+    color: brown;
+    margin-left: 10px;
+    
+}
+#patentimage3 img{
+    margin-top: 10px;
+	margin-left: 10px;
+	width:390px;
+	height:250px;
+}
+
+#article3{
+    flex-direction: row;
+    margin-left: -10px;
+    padding: 10px;
+    
+	margin-top:10px;
+
+}
+#article3 h3{
+    margin-left: -200px;
+    color:brown;
+}
+#article3 p{
+    margin-left: -5px;
+    text-align: justify;
+	width:390px;
+}
+#article3 img{
+	width:390px;
+	height:250px;
+}
+
+#article4{
+    flex-direction: row;
+    //margin-left: -860px;
+    padding: 10px;
+    width: 390px;
+	margin-top:-10px;
+}
+#article4 h3{
+    
+    color:brown;
+	
+}
+#article4 img{
+	width:390px;
+	height:250px;
+}
+
+
+#article4 p{
+    
+    text-align: justify;
+}
+#somelinks3{
+    flex-direction: column;
+    margin-left: -5px;
+    padding: 10px;
+    margin-top: -40px;
+    color: brown;
+}
+}
+
+@media only screen and (min-width: 768px){
+   
+    #wrapper{
+    width:700px;
+    }
+	
+#parent3{
+    margin-top: 470px;
+    display: flex;
+    flex-direction: column;
+}
+#patentimage3{
+    margin-top: -470px;
+    
+    
+}
+#patentimage3 h2{
+    color: brown;
+    margin-left: 150px;
+    
+}
+#patentimage3 img{
+    margin-top: 10px;
+	margin-left: 30px;
+	width:650px;
+	height:300px;
+}
+
+#article3{
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 10px;
+    width: 600px;
+	margin-top:10px;
+
+}
+#article3 h3{
+    
+    color:brown;
+}
+#article3 p{
+    width: 650px;
+    text-align: justify;
+}
+#article3 img{
+	width:650px;
+	height:300px;
+}
+#article4{
+    flex-direction: column;
+    margin-left: 10px;
+    padding: 10px;
+    width: 650px;
+	margin-top:-20px;
+}
+#article4 h3{
+    
+    color:brown;
+	
+}
+#article4 p{
+    
+    text-align: justify;
+}
+#article4 img{
+	width:650px;
+	height:300px;
+}
+#somelinks3{
+    flex-direction: column;
+    margin-left: 15px;
+    padding: 10px;
+    margin-top: -50px;
+    color: brown;
+}
+}
+
+@media only screen and (min-width: 1250px){
+	 #wrapper{
+    width:1200px;
+
+    }
+	#parent3{
+    margin-top: 470px;
+    display: flex;
+    flex-direction: row;
+}
+#patentimage3{
+    margin-top: -470px;
+    
+    
+}
+#patentimage3 h2{
+    color: brown;
+    margin-left: 400px;
+    
+}
+#patentimage3 img{
+    margin-top: 10px;
+	margin-left: 180px;
+	width:900px;
+	height:500px;
+}
+
+#article3{
+    flex-direction: column;
+    margin-left: -1100px;
+    padding: 10px;
+    width: 600px;
+	margin-top:110px;
+
+}
+#article3 h3{
+    
+    color:brown;
+}
+#article3 p{
+    
+    text-align: justify;
+	width: 600px;
+}
+#article3 img{
+    
+    width:600px;
+}
+#article4{
+    flex-direction: column;
+    //margin-left: -860px;
+    padding: 10px;
+    width: 600px;
+	margin-top:110px;
+}
+#article4 h3{
+    
+    color:brown;
+	
+}
+#article4 p{
+    
+    text-align: justify;
+}
+#article4 img{
+    
+    width:600px;
+}
+#somelinks3{
+    flex-direction: column;
+    margin-left: -615px;
+    padding: 10px;
+    margin-top: 890px;
+    color: brown;
+}
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,315 @@
+#compare{
+    margin-top: -10px;
+    margin-bottom: 30px;
+	display:flex;
+}
+#compare h2{
+   // text-align: center;
+    color: navy;
+	margin-top: -10px;
+	width:300pxl
+}
+#compare img{
+    margin-top: 70px;
+    margin-left: -10px
+}
+
+#facebook1{
+    margin-left: 100px;
+    margin-top: -70px;
+}
+
+#twitter1 {
+    /background-color: white;
+    
+	margin-top:-40px;
+}
+#twitter1 img{
+	margin-left:-50px;
+}
+
+#images1{
+    margin-left: 55px;
+    
+}
+#images1 img{
+    margin-top: -40px;
+}
+#like {
+    background-color: #e09247;
+     width: 325px;
+    height: 450px;
+    margin-top: -410px;
+    margin-left: 875px;
+    margin-bottom: -12px;
+    
+}
+#like h3{
+    color: navy;
+    margin-left: 15px;
+    
+    padding: 10px;
+}
+#fam1 img{
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: -15px
+}
+#graphs{
+	display:flex;
+	flex-direction:row;
+	margin-top:30px;
+	
+}
+@media only screen and  (min-width: 480px){
+	#wrapper{
+    width:400px;
+
+    }
+	#compare{
+    margin-top: 250px;
+    margin-bottom: 30px;
+	display:flex;
+	margin-left:10px;
+}
+#compare h2{
+   // text-align: center;
+    color: navy;
+	margin-top: -200px;
+	width:180px;
+}
+#compare img{
+   margin-top: -100px;
+    margin-left: -80px;
+	width:350px;
+	height:200px;
+	
+}
+
+
+#graphs{
+	display:flex;
+	flex-direction:column;
+	margin-top:380px;
+	
+}
+#parentalpocilities{
+	flex-direction:column;
+}
+#like h3{
+    color: navy;
+    margin-left:-5px;
+    padding: 10px;
+    display:flex;
+    flex-flow: wrap;
+}
+#like {
+    background-color: #e09247;
+     width: 400px;
+    height: 60px;
+    margin-top: -440px;
+    margin-left: 0px;
+    display:flex;
+    flex-flow: wrap;
+}
+
+
+#facebook1{
+    margin-left: 5px;
+    margin-top: 5px;
+    display: flex;
+}
+
+#facebook1 img{
+    margin-left:10px;
+    margin-top:5px;
+    padding: 10px;
+    //margin-bottom: -20px;
+    flex-flow:wrap;
+    
+}
+#twitter1 {
+    /background-color: white;
+    margin-left: 10px;
+        display:flex;
+    margin-top: -5px;
+    
+
+    
+}
+#twitter1 img{
+    margin-top: 10px;
+    margin-left: -25px;
+    padding: 15px;
+    margin-bottom: -20px;
+    flex-flow:wrap;
+}
+#images1{
+    margin-left: 15px;
+    display:flex;
+    margin-top: 120px;
+    
+}
+#images1 img{
+    margin-top: -115px;
+    flex-flow: wrap;
+    width: 70px;
+    height: 50px;
+	margin-left: 20px;
+}
+#fam1 img{
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: -5px;
+        flex-flow:wrap;
+    display: none;
+}
+}
+
+@media only screen and (min-width: 768px){
+        
+    #wrapper{
+    width:700px;
+
+    
+}
+	#compare{
+    margin-top: -10px;
+    margin-bottom: 30px;
+	display:flex;
+}
+#compare h2{
+   // text-align: center;
+    color: navy;
+	margin-top: -10px;
+	width:300pxl
+}
+#compare img{
+    margin-top: 70px;
+    margin-left: -190px;
+	width:440px;
+	height:250px;
+	
+}
+
+#facebook1{
+    margin-left: 100px;
+    margin-top: -70px;
+}
+
+#twitter1 {
+    /background-color: white;
+    
+	margin-top:-40px;
+}
+#twitter1 img{
+	margin-left:-50px;
+}
+
+#images1{
+    margin-left: 55px;
+    
+}
+#images1 img{
+    margin-top: -40px;
+}
+#like {
+    background-color: #e09247;
+     width: 245px;
+    height: 450px;
+    margin-top: -410px;
+    margin-left: 455px;
+    margin-bottom: -12px;
+    
+}
+#like h3{
+    color: navy;
+    margin-left: 15px;
+    
+    padding: 10px;
+}
+#fam1 img{
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: -15px
+	display:block;
+}
+#graphs{
+	display:flex;
+	flex-direction:column;
+	margin-top:30px;
+	text-align:center;
+}
+}
+/*@media only screen and (min-width: 1250px){
+   
+   #wrapper {
+        
+        width: 1200px;
+    }
+	#compare{
+    margin-top: -10px;
+    margin-bottom: 30px;
+	display:flex;
+}
+#compare h2{
+   // text-align: center;
+    color: navy;
+	margin-top: -10px;
+	width:300pxl
+}
+#compare img{
+    margin-top: 70px;
+    margin-left: -10px
+}
+
+#facebook1{
+    margin-left: 100px;
+    margin-top: -70px;
+}
+
+#twitter1 {
+    /background-color: white;
+    
+	margin-top:-40px;
+}
+#twitter1 img{
+	margin-left:-50px;
+}
+
+#images1{
+    margin-left: 55px;
+    
+}
+#images1 img{
+    margin-top: -40px;
+}
+#like {
+    background-color: #e09247;
+     width: 325px;
+    height: 450px;
+    margin-top: -410px;
+    margin-left: 875px;
+    margin-bottom: -12px;
+    
+}
+#like h3{
+    color: navy;
+    margin-left: 15px;
+    
+    padding: 10px;
+}
+#fam1 img{
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: -15px
+}
+#graphs{
+	display:flex;
+	flex-direction:row;
+	margin-top:30px;
+	
+}
+}*/
+
+ 

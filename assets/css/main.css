@@ -1,0 +1,878 @@
+#familypic img{
+    display: flex;
+   //padding: 5px;
+    margin-top: 5px; 
+    margin-left:30px;
+    //box-sizing: border-box;
+    background-color: white;
+    flex-flow: wrap;
+    
+}
+#familypic{
+    margin-left: -30px;
+	margin-top:-40px;
+    
+}
+#share1 h3{
+    color: navy;
+    margin-left: 15px;
+    padding: 10px;
+    display:flex;
+    flex-flow: wrap;
+}
+#share1{
+    background-color: #e09247;
+     width: 325px;
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 876px;
+    display:flex;
+    flex-flow: wrap;
+}
+/*.login{
+    //justify-content: center;
+    //padding: 25px;
+    margin-top:25px;
+        margin-left:-130px
+}*/
+
+#facebook1{
+    margin-left: -15px;
+    margin-top: -50px;
+    display: flex;
+}
+#facebook a{
+    margin-top: 10px;
+}
+
+#facebook1 img{
+    margin-left:-60px;
+    margin-top:100px;
+    padding: 10px;
+    margin-bottom: -20px;
+    flex-flow:wrap;
+    
+}
+#twitter12 {
+    /background-color: white;
+    margin-left: 20px;
+        display:flex;
+    
+
+    
+}
+#twitter12 img{
+    margin-top: 90px;
+    margin-left: -80px;
+    padding: 15px;
+    margin-bottom: -20px;
+    flex-flow:wrap;
+}
+#images1{
+    margin-left: 75px;
+    display:flex;
+    
+}
+#images1 img{
+    margin-top: -100px;
+    flex-flow: wrap;
+}
+#family img{
+    padding: 5px;
+    margin-left: 1px;
+    margin-top: 25px;
+        flex-flow:wrap;
+}
+#con{
+    background-color: #F6F3F0;
+    margin-top: 10px;
+    flex-direction: row;
+}
+
+
+#pa{
+
+   
+    //display: inline-block;
+    //box-sizing: border-box;
+    padding: 0.63em;
+    color: black;
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#pa h2{
+    margin-top:20px;
+    color: #c7510b;
+	margin-left:10px;
+}
+#pa p{
+     width: 370px;
+    margin-top: 10px;
+    margin-left:10px;
+}
+#parentalimg{
+   
+    flex-flow: wrap;
+    //width:100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#ma{
+   
+    padding: 0.63em;
+    color: black;
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+    display: flex;
+    margin-left: 550px;
+    
+    flex-direction: column;
+}
+#ma h2{
+    margin-top:-455px;
+    color: #c7510b;
+    width: 300px;
+	margin-left:-140px;
+    
+}
+#map{
+    width: 370px;
+    margin-top: 2px;
+    margin-left: -140px;
+}
+#maternityimg img{
+    margin-top: 10px;
+    margin-left: -140px;
+}
+#pat{
+
+   
+    //display: inline-block;
+    //box-sizing: border-box;
+    padding: 0.63em;
+    color: black;
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+    /margin-top: -10px;
+    display: flex;
+    margin-left: 700px;
+    margin-top: -500px;
+    //float: right;
+    //margin-right: -260px;
+    flex-direction: column;
+}
+#pat h2{
+    margin-top:15px;
+    color: #c7510b;
+    //margin-right: -151px;
+	margin-left:110px;
+	width: 360px;
+    
+    
+}
+#pat p{
+    width: 360px;
+    margin-top: 10px;
+   // margin-right: -360px;
+   margin-left:110px;
+
+}
+#paternityimg img{
+    
+    margin-top: 30px;
+    //margin-right: 10px;
+    flex-flow: wrap;
+	 margin-left:110px;
+}
+@media only screen and  (min-width: 480px){
+    
+    #wrapper{
+    width:400px;
+
+    }
+    #share1{
+		display:none;
+	}
+	#share1 h2{
+		display:none;
+	}
+	
+	
+#familypic img{
+    display: flex;
+   //padding: 5px;
+    margin-top: 5px; 
+    margin-left:30px;
+    //box-sizing: border-box;
+    background-color: white;
+    flex-flow: wrap;
+    width: 400px;
+    height: 250px;
+}
+#familypic{
+    margin-left: -30px;
+    
+}
+
+#content{
+    background-color: #F6F3F0;
+    margin-top: 230px;
+    flex-direction: column;
+    
+}
+
+
+#parental{
+
+   
+    //display: inline-block;
+    //box-sizing: border-box;
+    //padding: 0.63em;
+    color: black;
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+#parental h2{
+    margin-top:-215px;
+    color: #c7510b;
+    font-size: 18px;
+   // padding: 5px;
+   margin-left:0px;
+}
+#parental p{
+     width: 370px;
+    margin-top: -10px;
+    margin-left: 0px;
+    font-size: 13px;
+}
+#parentalimg{
+   
+    flex-flow: wrap;
+    margin-top: -10px;
+    margin-left: 5px;
+    width: 100%;
+    height: 200px;
+    
+}
+
+#ma{
+   
+    padding: 0.63em;
+    color: black;
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+    display: flex;
+    margin-left: -5px;
+    margin-top: -150px;
+    flex-direction: column;
+}
+#ma h2{
+    margin-top:210px;
+    color: #c7510b;
+    width: 300px;
+    font-size: 18px;
+   // padding: 5px;
+    margin-left: 5px;
+}
+#ma p{
+    width: 370px;
+    margin-top: -0px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+#maternityimg{
+    margin-top: -10px;
+    margin-left: 150px;
+    width: 100%;
+    height: 200px;
+}
+#pat{
+
+   
+    
+   // padding: 0.63em;
+    color: black;
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+   flex-direction: column;
+    display: flex;
+	margin-left:10px;
+	margin-top:-10px;
+    
+    
+}
+#pat h2{
+    margin-top:60px;
+    color: #c7510b;
+    //margin-right: -250px;
+    width: 300px;
+    font-size: 18px;
+    margin-left: -5px;
+    //padding: 5px;
+   
+}
+#pat p{
+    width: 370px;
+    margin-top: -5px;
+    //margin-right: -450px;
+    font-size: 14px;
+    //margin-right:-320px;
+        margin-left:-1px;
+		font-size:13px;
+}
+#paternityimg{
+    
+    margin-top: -30px;
+    margin-left: -115px;
+    flex-flow: wrap;
+    width: 100%;
+    //height: 200px;
+    //margin-bottom: 30px;
+    
+}
+#share1 h3{
+    color: navy;
+    margin-left:-5px;
+    padding: 10px;
+    display:flex;
+    flex-flow: wrap;
+}
+#share1 {
+    background-color: #e09247;
+     width: 400px;
+    height: 90px;
+    margin-top: -350px;
+    margin-left: 0px;
+    display:flex;
+    flex-flow: wrap;
+	display:none;
+}
+
+
+#facebook1{
+    margin-left: 5px;
+    margin-top: -50px;
+    display: flex;
+}
+
+#facebook1 img{
+    margin-left:10px;
+    margin-top:25px;
+    padding: 10px;
+    //margin-bottom: -20px;
+    flex-flow:wrap;
+    
+}
+#twitter12 {
+    /background-color: white;
+    margin-left: 10px;
+        display:flex;
+    margin-top: -30px;
+    
+
+    
+}
+#twitter12 img{
+    margin-top: 10px;
+    margin-left: -25px;
+    padding: 15px;
+    margin-bottom: -20px;
+    flex-flow:wrap;
+}
+#images1{
+    margin-left: 15px;
+    display:flex;
+    margin-top: 120px;
+    
+}
+#images1 img{
+    margin-top: 15px;
+    flex-flow: wrap;
+    width: 100px;
+    height: 70px;
+	margin-left: -20px;
+}
+#family img{
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: -5px;
+        flex-flow:wrap;
+    display: none;
+}
+    
+   
+}
+
+@media only screen and (min-width: 768px){
+   
+    #wrapper{
+    width:700px;
+    }
+           
+#familypic img{
+    display: flex;
+   //padding: 5px;
+    margin-top: -15px; 
+    margin-left:25px;
+    //box-sizing: border-box;
+    background-color: white;
+    flex-flow: wrap;
+    width: 500px;
+    height: 270px;
+}
+#familypic{
+   padding: 5px;
+    
+}
+    #share1 h3{
+    color: navy;
+    margin-left: -1px;
+    padding:10px;
+    display:flex;
+    flex-flow: wrap;
+}
+#share1 {
+    background-color: #e09247;
+     width: 205px;
+    height: 275px;
+    margin-top: -300px;
+    margin-left: 495px;
+    display:flex;
+    flex-flow: wrap;
+	display: block;
+}
+/*.login{
+    //justify-content: center;
+    //padding: 25px;
+    margin-top:25px;
+        margin-left:-130px
+}*/
+
+#facebook1{
+    margin-left:15px;
+    margin-top: 25px;
+    display: flex;
+}
+#facebook a{
+    margin-top: 40px;
+}
+
+#facebook1 img{
+    margin-left:-10px;
+    margin-top:-40px;
+    padding: 10px;
+    margin-bottom: -20px;
+    flex-flow:wrap;
+    
+    
+}
+#twitter12{
+    /background-color: white;
+    margin-left: 20px;
+        display:flex;
+    margin-top: 10px;
+
+    
+}
+#twitter12 img{
+    margin-top: -15px;
+    margin-left: -15px;
+    padding: 15px;
+    margin-bottom: -20px;
+    flex-flow:wrap;
+   
+}
+#images1{
+    margin-left: 125px;
+    display:flex;
+	margin-top:20px;
+    
+    
+}
+#images1 img{
+    margin-top: -70px;
+    flex-flow: wrap;
+    margin-left: -80px;
+    width: 110px;
+    height: 100px;
+   
+}
+#family img{
+    //padding: 5px;
+    margin-left: 10px;
+    margin-top: -5px;
+        flex-flow:wrap;
+		display:block;
+		width:180px;
+		height:120px;
+}
+
+#con{
+    background-color: #F6F3F0;
+    margin-top: 15px;
+    flex-direction: column;
+    
+}
+
+
+#pa{
+
+   
+    //display: inline-block;
+    //box-sizing: border-box;
+    //padding: 0.63em;
+    color: black;
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#pa h2{
+    margin-top:-5px;
+    color: #c7510b;
+    font-size: 18px;
+    //padding: 5px;
+}
+#pa p{
+     width: 660px;
+    margin-top: -15px;
+    margin-left: -5px;
+    font-size: 16px;
+    text-align: justify;
+    padding: 5px;
+}
+#parentalimg img{
+   
+    flex-flow: wrap;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 680px;
+    height: 300px;
+    
+}
+
+#ma{
+   
+    padding: 0.63em;
+    color: black;
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+    display: flex;
+    margin-left: -5px;
+    margin-top: -20px;
+    flex-direction: column;
+}
+#ma h2{
+    margin-top:135px;
+    color: #c7510b;
+    width: 300px;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 5px;
+}
+#ma p{
+    width: 660px;
+    margin-top: -5px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+#maternityimg img{
+    margin-top: 0px;
+    margin-left: -140px;;
+   
+    width: 680px;
+    height: 300px;
+}
+#pat{
+
+   
+        //padding: 0.63em;
+    color: black;
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+   flex-direction: column;
+    display: flex;
+    
+    
+}
+#pat h2{
+    margin-top:100px;
+    color: #c7510b;
+    //margin-right: -250px;
+    width: 300px;
+    font-size: 18px;
+    margin-left: 5px;
+    //padding: 5px;
+   
+}
+#pat p{
+    width: 670px;
+    margin-top:-5px;
+    //margin-right: -450px;
+    font-size: 16px;
+    //margin-right:-360px;
+        margin-left:5px
+}
+#paternityimg img{
+    
+    margin-top: 25px;
+    margin-left: 110px;
+    
+    flex-flow: wrap;
+    width: 680px;
+    height: 300px;
+    
+}
+ 
+}
+
+
+
+@media only screen and (min-width: 1250px){
+   
+     
+    #wrapper{
+    width:1200px;
+
+    }
+    #familypic img{
+    display: flex;
+   //padding: 5px;
+    margin-top: -15px; 
+    margin-left:25px;
+    //box-sizing: border-box;
+    background-color: white;
+    flex-flow: wrap;
+        width: 870px;
+        height: 450px;
+        
+    
+}
+#familypic{
+    margin-left: -30px;
+    
+}
+#share1 h3{
+    color: navy;
+    margin-left: 15px;
+    padding: 10px;
+    display:flex;
+    flex-flow: wrap;
+}
+#share1 {
+    background-color: #e09247;
+     width: 325px;
+    height: 450px;
+    margin-top: -455px;
+    margin-left: 876px;
+    display:flex;
+    flex-flow: wrap;
+}
+/*.login{
+    //justify-content: center;
+    //padding: 25px;
+    margin-top:25px;
+        margin-left:-130px
+}*/
+
+#facebook1{
+    margin-left: -75px;
+    margin-top: -5px;
+    display: flex;
+}
+#facebook1 a{
+    margin-top: -15px;
+    margin-left: 150px;
+    margin-bottom: -20px;
+}
+
+#facebook1 img{
+    margin-left:-140px;
+    margin-top:80px;
+    padding: 10px;
+    margin-bottom: -30px;
+    flex-flow:wrap;
+    display: none;
+    
+}
+#twitter12 {
+    /background-color: white;
+    margin-left: 130px;
+        display:flex;
+  }
+    #twitter12 a{
+        margin-left: 30px;
+    }
+#twitter12 img{
+    margin-top: 90px;
+    margin-left: -300px;
+    padding: 15px;
+    margin-bottom: -40px;
+    flex-flow:wrap;
+    display: none;
+}
+#images1{
+    margin-left: 75px;
+    display:flex;
+	margin-top: 10px;
+	display:none;
+    
+}
+#images1 img{
+    margin-top: -60px;
+    flex-flow: wrap;
+	width:200px;
+	height:150px;
+	margin-left: 15px;
+	display:none;
+}
+#family img{
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: -10px;
+        flex-flow:wrap;
+    display: block;
+    width: 310px;
+    height: 360px;
+}
+#con{
+    background-color: #F6F3F0;
+    margin-top: 10px;
+    flex-direction: row;
+}
+
+
+#pa{
+
+   
+    //display: inline-block;
+    //box-sizing: border-box;
+    //padding: 0.63em;
+    color: black;
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#pa h2{
+    margin-top:10px;
+    color: #c7510b;
+}
+#pa p{
+     width: 380px;
+    margin-top: -5px;
+    margin-left: -5px;
+    //padding: 5px;
+}
+#parentalimg img{
+   
+    flex-flow: wrap;
+    margin-top: -2px;
+    margin-left: -5px;
+    margin-right: auto;
+    width: 375px;
+   height: 250px;
+}
+
+#ma{
+   
+   // padding: 0.63em;
+    color: black;
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+    display: flex;
+    margin-left: 400px;
+    margin-top: -470px;
+     flex-direction: column;
+    
+}
+#ma h2{
+    margin-top:75px;
+    color: #c7510b;
+    width: 300px;
+    margin-left: -5px;
+    
+}
+#ma p{
+    width: 380px;
+    margin-top: -10px;
+    margin-left: 0px;
+    //padding: 5px;
+}
+#maternityimg img{
+    margin-top: 8px;
+    margin-left: -150px;
+    width: 375px;
+    height: 250px;
+}
+#pat{
+
+   
+    //display: inline-block;
+    //box-sizing: border-box;
+    padding: 0.63em;
+    color: black;
+    font-size: 0.9em;
+    font-family: Arial;
+    text-align: justify;
+    display: flex;
+    margin-top: -520px;
+    margin-left:970px;
+    //width: 350px;
+     flex-direction: column;
+   
+    
+}
+#pat h2{
+    margin-top:135px;
+    color: #c7510b;
+    margin-left:-165px;
+    //width: 320px;
+    
+    
+}
+#pat p{
+    width: 380px;
+    margin-top: -2px;
+    margin-left:-170px;
+    
+}
+#paternityimg img{
+    
+    margin-top: 30px;
+   // margin-right: 10px;
+   // flex-flow: wrap;
+    width: 375px;
+    height: 250px;
+    margin-left: -55px;
+}
+}
+
+
+

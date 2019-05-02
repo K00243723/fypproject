@@ -1,0 +1,279 @@
+#adminlogin{
+   
+    color: white;
+   
+    background-color: #e09247;
+    width:800px;
+   height: 295px;
+    //margin-left: -10px;
+   margin:auto;
+	display:flex;
+    
+    
+   
+}
+#adminlogin h2{
+    margin-left: 270px;
+    margin-top: -10px;
+    padding: 30px;
+
+
+    
+}
+#form1{
+	margin-left:-100px;
+	margin-top:70px;
+}
+
+#adminlogin p{
+    font-size: 1.3em;
+}
+#user1{
+    margin-left: -120px;
+    width: 300px;
+}
+#username12{
+	width:200px;
+}
+#pass1{
+    margin-left: -120px;
+    width: 300px;
+}
+#pass12{
+	width: 200px;
+	height:30px;
+	border-radius:5px;
+	border:none;
+	margin-left:22px;
+}
+
+#button1{
+	
+ 
+    font-size: 1em;
+    background-color: #0a908f;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    padding:10px;
+    margin-left: 10px;
+    border: none;
+    
+    
+}
+@media only screen and  (min-width: 480px){
+	#wrapper{
+    width:400px;
+
+    }
+	#adminlogin{
+   
+    color: white;
+   
+    background-color: #e09247;
+    width:400px;
+   height: 295px;
+    //margin-left: -10px;
+   margin:auto;
+	display:flex;
+    
+    
+   
+}
+#adminlogin h2{
+    margin-left: 150px;
+    margin-top: -10px;
+    padding: 30px;
+	width:100px;
+
+    
+}
+#form1{
+	margin-left:-150px;
+	margin-top:70px;
+}
+
+#adminlogin p{
+    font-size: 1.3em;
+}
+#user1{
+    margin-left: -120px;
+    width: 300px;
+}
+#username12{
+	width:200px;
+}
+#pass1{
+    margin-left: -120px;
+    width: 300px;
+}
+#pass12{
+	width: 200px;
+	height:30px;
+	border-radius:5px;
+	border:none;
+	margin-left:22px;
+}
+
+#button1{
+	
+ 
+    font-size: 1em;
+    background-color: #0a908f;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    padding:10px;
+    margin-left: 10px;
+    border: none;
+    
+    
+}
+	
+}
+@media only screen and (min-width: 768px){
+        
+    #wrapper{
+    width:700px;
+
+    
+}
+	#adminlogin{
+   
+    color: white;
+   
+    background-color: #e09247;
+    width:700px;
+   height: 295px;
+    //margin-left: -10px;
+   margin:auto;
+	display:flex;
+    
+    
+   
+}
+#adminlogin h2{
+    margin-left: 250px;
+    margin-top: -10px;
+    padding: 30px;
+	width:300px;
+
+    
+}
+#form1{
+	margin-left:-300px;
+	margin-top:70px;
+}
+
+#adminlogin p{
+    font-size: 1.3em;
+}
+#user1{
+    margin-left: -120px;
+    width: 300px;
+}
+#username12{
+	width:200px;
+}
+#pass1{
+    margin-left: -120px;
+    width: 300px;
+}
+#pass12{
+	width: 200px;
+	height:30px;
+	border-radius:5px;
+	border:none;
+	margin-left:22px;
+}
+
+#button1{
+	
+ 
+    font-size: 1em;
+    background-color: #0a908f;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    padding:10px;
+    margin-left: 10px;
+    border: none;
+    
+    
+}
+}
+@media only screen and (min-width: 1250px){
+   
+   #wrapper {
+        
+        width: 1200px;
+    }
+	#adminlogin{
+   
+    color: white;
+   
+    background-color: #e09247;
+    width:800px;
+   height: 295px;
+    //margin-left: -10px;
+   margin:auto;
+	display:flex;
+    
+    
+   
+}
+#adminlogin h2{
+    margin-left: 300px;
+    margin-top: -10px;
+    padding: 30px;
+
+    
+}
+#form1{
+	margin-left:-280px;
+	margin-top:70px;
+}
+
+#adminlogin p{
+    font-size: 1.3em;
+}
+#user1{
+    margin-left: -120px;
+    width: 300px;
+}
+#username12{
+	width:200px;
+}
+#pass1{
+    margin-left: -120px;
+    width: 300px;
+}
+#pass12{
+	width: 200px;
+	height:30px;
+	border-radius:5px;
+	border:none;
+	margin-left:22px;
+}
+
+#button1{
+	
+ 
+    font-size: 1em;
+    background-color: #0a908f;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    padding:10px;
+    margin-left: 10px;
+    border: none;
+    
+    
+}
+}
+
+ 
